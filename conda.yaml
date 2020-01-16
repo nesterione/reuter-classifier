@@ -1,4 +1,4 @@
-name: reuters-demo
+name: textclf-demo
 channels:
   - defaults
 dependencies:
