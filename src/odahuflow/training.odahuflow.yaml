@@ -6,7 +6,7 @@ spec:
     version: 1.0
   toolchain: mlflow  # MLFlow training toolchain integration
   entrypoint: main
-  workDir:   # MLproject location (in GitHub)
+  workDir: src # MLproject location (in GitHub)
   hyperParameters:
     alpha: "1.0"
   resources:
@@ -16,4 +16,4 @@ spec:
     requests:
       cpu: 2024m
       memory: 2024Mi
-  vcsName: odahu-flow-textclf
+  vcsName: textclf-demo-repo
